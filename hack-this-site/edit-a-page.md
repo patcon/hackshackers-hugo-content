@@ -1,14 +1,19 @@
 ---
 title: Edit a post or page
-description: All you need is a GitHub account to write a blog post or suggest edits to any page.
+description: >-
+  All you need is a GitHub account to write a blog post or suggest edits to any
+  page.
 weight: 1
+published: true
 ---
 
 ## tl;dr
 
-1. Use the "Suggest Edits" link on an existing page or [click here][7] to add a new page.
-1. Write/edit in [Markdown][3] using GitHub's web-based text editor.
-1. Keep clicking the *big green buttons* until your [pull request][8] is created.
+1. Use the "Suggest Edits" link on an existing page
+    - Alternatively, create a new page by [navigating to the appropriate website directory][7] and clicking the "New file" button.
+1. Click the green "Power button" in the bottom right to authorize on GitHub (or create an account).
+1. Write/edit in [Markdown][3] using the web-based text editor.
+1. Click the "Save" icon to the right of your edits.
 
 ## The long version
 
@@ -87,5 +92,5 @@ We also have a custom `{{</* iframe */>}}` shortcode that accepts `src` and _CSS
 [4]: /hack-this-site/edit-group-page/
 [5]: https://gohugo.io/extras/shortcodes/#figure
 [6]: https://gohugo.io/extras/shortcodes/
-[7]: https://github.com/hackshackers/hackshackers-hugo-content/new/master
+[7]: http://prose.io/#hackshackers/hackshackers-hugo-content
 [8]: https://help.github.com/articles/using-pull-requests
